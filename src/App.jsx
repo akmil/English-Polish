@@ -5,6 +5,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import PageNotFound from './lib/PageNotFound';
 import { GitHubProvider } from '@/context/GitHubContext';
 import Index from './pages/Index';
+import Catalog from './pages/Catalog';
 import { Toaster as Sonner } from 'sonner';
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
         <Router>
           <Routes>
             <Route path="/" element={<Index />} />
+            <Route path="/catalog" element={<Catalog />} />
             <Route path="*" element={<PageNotFound />} />
           </Routes>
         </Router>
