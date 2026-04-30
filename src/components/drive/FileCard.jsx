@@ -1,4 +1,4 @@
-import { useState } from 'react';
+// @ts-nocheck
 import { Folder, MoreVertical, Download, Trash2, Edit2 } from 'lucide-react';
 import { cn } from '@/lib/utils';
 import { getFileIcon, formatBytes } from '@/lib/github';

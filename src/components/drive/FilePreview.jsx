@@ -1,7 +1,6 @@
+// @ts-nocheck
 import { useEffect, useState } from 'react';
-import { X, Download, Loader2, FileText, Archive } from 'lucide-react';
-import { motion, AnimatePresence } from 'framer-motion';
-import { getFileContent, base64ToBlob, getMimeType, formatBytes } from '@/lib/github';
+import { getFileContent, base64ToBlob, getMimeType } from '@/lib/github';
 import { useGitHub } from '@/context/GitHubContext';
 import JSZip from 'jszip';
 

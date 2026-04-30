@@ -1,8 +1,7 @@
 import { useState } from 'react';
-import { Github, HardDrive, Clock, Star, Trash2, ChevronDown, ChevronRight, Plus, LogOut } from 'lucide-react';
+import { Github, HardDrive, Clock, Star, Trash2, Plus, LogOut } from 'lucide-react';
 import { cn } from '@/lib/utils';
 import { useGitHub } from '@/context/GitHubContext';
-import { motion, AnimatePresence } from 'framer-motion';
 
 const navItems = [
   { id: 'my-drive',  label: 'My Drive', icon: HardDrive },

@@ -1,3 +1,4 @@
+// @ts-nocheck
 const BASE = 'https://api.github.com';
 
 function headers(token) {

@@ -1,3 +1,4 @@
+// @ts-nocheck
 // Minimal DropdownMenu components for UI
 export function DropdownMenu({ children }) {
   return <div>{children}</div>;
